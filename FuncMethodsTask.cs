@@ -19,20 +19,21 @@ public class Program
                             Console.WriteLine("The sum of two numbers is: " +(n1 + n2));
                         } */
 
-    static void SpaceCounter() {
-        Console.WriteLine("Please enter a string:");
-        string input = Console.ReadLine();
-        char space = ' ';
-        int spaceNumber = input.Split(space).Length - 1;
-        Console.WriteLine("\"" + input + "\" contains " + spaceNumber + " spaces.");
+                        // TASK FOUR
+                        /* static void SpaceCounter() {
+                            Console.WriteLine("Please enter a string:");
+                            string input = Console.ReadLine();
+                            char space = ' ';
+                            int spaceNumber = input.Split(space).Length - 1;
+                            Console.WriteLine("\"" + input + "\" contains " + spaceNumber + " spaces.");
 
-    }
+                        } */
 	public static void Main()
 	{
-       // SayHello();
-       // Welcome("John");
-       // AddTwoNums(20, 30);
-    SpaceCounter();
+                                // SayHello();
+                                // Welcome("John");
+                                // AddTwoNums(20, 30);
+                                // SpaceCounter();
     }
 }
 
