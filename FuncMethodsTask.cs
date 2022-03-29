@@ -31,6 +31,7 @@ public class Program
                         } */
     
                         // TASK FIVE
+                        // replace with for loop
                         /*  static void ElementSummer() {
                             int[] elementsArray = new int[5];
                             Console.WriteLine("Input 5 elements in the array:");
