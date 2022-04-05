@@ -47,8 +47,8 @@ public class Program
                             int sum = elementsArray.Sum();
                             Console.WriteLine("The sum of the elements of the array is " + sum);
                                 } */
-                            //Task Five
-                            /* static void SwapNums() {
+                        //TASK SIX
+                        /* static void SwapNums() {
                             int num1;
                             int num2;
                             Console.WriteLine("Enter a number:");
