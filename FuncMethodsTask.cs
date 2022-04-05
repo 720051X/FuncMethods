@@ -58,6 +58,19 @@ public class Program
                             (num1, num2) = (num2, num1);
                             Console.WriteLine("Now the 1st number is: " + num1 + ", and the 2nd number is: " + num2);
                             } */
+                            
+                            // TASK SEVEN
+                        /* static void Power() {
+                            int baseNum;
+                            int expo;
+                            double result;
+                            Console.WriteLine("Input Base Number:");
+                            baseNum = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Input the Exponent:");
+                            expo = int.Parse(Console.ReadLine());
+                            result = Math.Pow(baseNum, expo);
+                            Console.WriteLine("So, the number " + baseNum + " ^ (to the power) " + expo + " = " + result);
+                            } */
 
 static void Main() {
                                 // SayHello();
@@ -66,6 +79,7 @@ static void Main() {
                                 // SpaceCounter();
                                 // ElementSummer();
                                 // SwapNums();
+                                // Power();
     }
 }
 
