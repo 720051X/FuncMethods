@@ -31,7 +31,6 @@ public class Program
                         } */
     
                         // TASK FIVE
-                        // replace with for loop
                         /*  static void ElementSummer() {
                             int[] elementsArray = new int[5];
                             Console.WriteLine("Input 5 elements in the array:");
@@ -45,13 +44,20 @@ public class Program
                                 elementsArray[3] = Int32.Parse(input4);
                                 string input5 = Console.ReadLine();
                                 elementsArray[4] = Int32.Parse(input5);
-                        
-
                             int sum = elementsArray.Sum();
                             Console.WriteLine("The sum of the elements of the array is " + sum);
                                 } */
-
-
+                            //Task Five
+                            /* static void SwapNums() {
+                            int num1;
+                            int num2;
+                            Console.WriteLine("Enter a number:");
+                            num1 = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Enter another number:");
+                            num2 = int.Parse(Console.ReadLine());
+                            (num1, num2) = (num2, num1);
+                            Console.WriteLine("Now the 1st number is: " + num1 + ", and the 2nd number is: " + num2);
+                            } */
 
 static void Main() {
                                 // SayHello();
@@ -59,6 +65,7 @@ static void Main() {
                                 // AddTwoNums(20, 30);
                                 // SpaceCounter();
                                 // ElementSummer();
+                                // SwapNums();
     }
 }
 
